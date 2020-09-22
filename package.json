@@ -1,6 +1,6 @@
 {
   "name": "array-sql",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SQL-like querying on arrays",
   "main": "src/index.js",
   "scripts": {
