@@ -1,5 +1,5 @@
 {
-  "name": "sqlarray",
+  "name": "array-sql",
   "version": "0.0.1",
   "description": "SQL-like querying on arrays",
   "main": "src/index.js",
