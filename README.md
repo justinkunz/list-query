@@ -5,7 +5,7 @@ Lightweight, dependency free module for SQL Like querying on arrays of object.
 ## Usage
 
 ```js
-const select = require("sql-array");
+const select = require("sqlarray");
 
 const users = [
   {
