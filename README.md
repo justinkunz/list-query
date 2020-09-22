@@ -1,4 +1,4 @@
-# SQL Array
+# Array-SQL
 
 Lightweight, dependency free module for SQL Like querying on arrays of object.
 
