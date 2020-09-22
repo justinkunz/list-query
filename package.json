@@ -1,0 +1,24 @@
+{
+  "name": "sql-array",
+  "version": "0.0.1",
+  "description": "SQL-like querying on arrays",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinkunz/sql-array.git"
+  },
+  "keywords": [
+    "sql",
+    "array",
+    "query"
+  ],
+  "author": "Justin Kunz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinkunz/sql-array/issues"
+  },
+  "homepage": "https://github.com/justinkunz/sql-array#readme"
+}
