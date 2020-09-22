@@ -2,7 +2,6 @@ class Query {
   constructor(returnKeys) {
     this._conditions = [];
     this._returnKeys = returnKeys;
-    this._transform = (itm) => itm;
   }
 
   where(key) {
@@ -90,7 +89,7 @@ class Query {
 
   run() {
     let limitCounter = 0;
-    const results = this._arr.map(this._transform).filter((itm) => {
+    const results = this._arr.filter((itm) => {
       const hasLimit = !isNaN(this._limit);
       if (hasLimit && limitCounter >= this._limit) return false;
 

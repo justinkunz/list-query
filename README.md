@@ -10,6 +10,7 @@ const select = require("sql-array");
 const users = [
   {
     id: 123,
+    username: "johnsmith11",
     firstName: "John",
     lastName: "Smith",
     age: 25,
@@ -19,6 +20,7 @@ const users = [
   },
   {
     id: 456,
+    username: "foobarz",
     firstName: "Jane",
     lastName: "Doe",
     age: 24,
@@ -28,6 +30,7 @@ const users = [
   },
   {
     id: 903,
+    username: "joejoe",
     firstName: "Joe",
     lastName: "Bar",
     age: 25,
@@ -37,6 +40,7 @@ const users = [
   },
   {
     id: 211,
+    username: "amanda92",
     firstName: "Amanda",
     lastName: "Baz",
     age: 24,
@@ -46,6 +50,7 @@ const users = [
   },
   {
     id: 115,
+    username: "billybills",
     firstName: "Bill",
     lastName: "Baz",
     age: 23,
