@@ -1,6 +1,6 @@
 {
-  "name": "array-sql",
-  "version": "0.0.3",
+  "name": "list-query",
+  "version": "0.0.4",
   "description": "SQL-like querying on arrays",
   "main": "src/index.js",
   "scripts": {
@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinkunz/sql-array.git"
+    "url": "https://github.com/justinkunz/list-query.git"
   },
   "keywords": [
     "sql",
     "array",
+    "list",
     "query"
   ],
   "author": "Justin Kunz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/justinkunz/sql-array/issues"
+    "url": "https://github.com/justinkunz/list-query/issues"
   },
-  "homepage": "https://github.com/justinkunz/sql-array#readme"
+  "homepage": "https://github.com/justinkunz/list-query#readme"
 }
