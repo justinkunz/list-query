@@ -1,6 +1,6 @@
 {
   "name": "list-query",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "SQL-like querying on arrays",
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "sql",
     "array",
     "list",
-    "query"
+    "query",
+    "select",
+    "object"
   ],
   "author": "Justin Kunz",
   "license": "MIT",

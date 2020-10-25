@@ -161,15 +161,18 @@ const recentlyLoggedInAdmins = select('*')
 ### Query Methods
 
 - `.is(val)` - _Any_ - Compared Value must equal provided value
+  - _Alias_ - `equals(val)`
 - `.isNot(val)` - _Any_ - Compared Value must NOT equal provided value
+  - _Alias_ - `doesNotEqual(val)`
 - `.startsWith(str)` - _String_ - Compared Value _(as string)_ must start with provided value
 - `.endsWith(str)` - _String_ - Compared Value _(as string)_ must end with provided value
 - `.isGreaterThan(n)` - _Number_ - Compared Value must be greater than provided value
 - `.isLessThan(n)` - _Number_ - Compared Value must be less than provided value
 - `.isGreaterThanOrEqualTo(n)` - _Number_ - Compared Value must be greater than or equal to provided value
 - `.isLessThanOrEqualTo(n)` - _Number_ - Compared Value must be less than or equal to provided value
-- `.contains(val)` - _Any_ - Compared Value _(must be an array)_ must contain provided value
 - `.within(arr)` - _Array_ - Compared value must match a value in the provided array
+  - _Alias_ - `in(arr)`
+- `.contains(val)` - _Any_ - Compared Value _(must be an array)_ must contain provided value
 
 ### Limit
 
